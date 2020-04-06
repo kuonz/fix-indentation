@@ -9,12 +9,13 @@
 ### 用法
 
 ```shell
-go run fix-indentation.go <参数列表>
-```
+# 克隆项目到本地
+git clone git@github.com:kuonz/fix-indentation.git
 
-或
-```shell
-# build后使用
+# 编译为可执行文件
+go build fix-indentation.go
+
+# 运行可执行文件
 ./fix-indentation <参数列表>
 ```
 
