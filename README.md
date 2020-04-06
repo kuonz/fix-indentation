@@ -30,14 +30,17 @@ go build fix-indentation.go
 ### 使用示例
 
 ```shell
+# 查看参数列表提示
+./fix-indentation -h
+
 # 将 fix-indentation 目录下所有的 .go 文件中每个制表符替换为2个空格
-go run fix-indentation -s=".go"
+./fix-indentation -s=".go"
 
 # 将 fix-indentation 目录下所有的 .txt 文件中每个制表符替换为4个空格
-go run fix-indentation -n=4 -s=".txt"
+./fix-indentation -n=4 -s=".txt"
 
 # 将 /home/user/project 目录下所有的 .js 文件中每个制表符替换为8个空格
-go run fix-indentation -p="/home/user/project" -n=8 -s=".js"
+./fix-indentation -p="/home/user/project" -n=8 -s=".js"
 ```
 
 技巧：如果不想输入起始目录路径，可以将`fix-indentation`拷贝到特定目录路径，然后再执行程序
