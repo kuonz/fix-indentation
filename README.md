@@ -8,8 +8,14 @@
 
 ### 用法
 
+```shell
+go run fix-indentation.go <参数列表>
 ```
-go run fix-indentation <参数列表>
+
+或
+```shell
+# build后使用
+./fix-indentation <参数列表>
 ```
 
 参数列表
